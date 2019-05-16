@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main5Activity">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="137dp"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/eid"
+        android:layout_marginTop="22dp"
+        android:text="NAME"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/dob"
+        android:layout_width="144dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/name"
+        android:layout_marginTop="101dp"
+        android:text="Date of Birth"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/eid"
+        android:layout_width="137dp"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="193dp"
+        android:text="Email-ID"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"/>
+
+    <CheckBox
+        android:id="@+id/ab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/m"
+        android:layout_marginBottom="83dp"
+        android:text="Abroad"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"/>
+
+    <CheckBox
+        android:id="@+id/ind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/f"
+        android:layout_alignTop="@+id/ab"
+        android:text="Indian"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/sb"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Submit"
+        android:background="@color/colorPrimary"
+        android:onClick="submit"/>
+
+    <TextView
+        android:id="@+id/y"
+        android:layout_width="139dp"
+        android:layout_height="42dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/name"
+        android:layout_marginBottom="202dp"
+        android:text="Year of Collage"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <RadioButton
+        android:id="@+id/f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/m"
+        android:layout_marginEnd="13dp"
+        android:text="Female"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp" />
+
+    <RadioButton
+        android:id="@+id/m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/cv"
+        android:layout_marginBottom="130dp"
+        android:text="Male"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp" />
+
+    <CalendarView
+        android:id="@+id/cv"
+        android:layout_width="211dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true" />
+
+    <EditText
+        android:layout_width="214dp"
+        android:layout_height="58dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/eid"
+        android:id="@+id/et"/>
+    <EditText
+        android:layout_width="214dp"
+        android:layout_height="58dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/name"
+        android:id="@+id/et2"/>
+    <EditText
+        android:layout_width="214dp"
+        android:layout_height="58dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/y"
+        android:id="@+id/et3"/>
+
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="42dp"
+        android:layout_alignStart="@+id/name"
+        android:layout_alignTop="@+id/m"
+        android:text="Gender"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/g"/>
+
+    <TextView
+        android:layout_width="122dp"
+        android:layout_height="53dp"
+        android:layout_alignStart="@+id/name"
+        android:layout_alignTop="@+id/ab"
+        android:text="Internship type"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/it"/>
+
+</RelativeLayout>

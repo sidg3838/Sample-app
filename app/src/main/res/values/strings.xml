@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Internone</string>
+    <string name="ift">"(1) People get exposure to new culture.
+
+(2) People who work in this new atmosphere seek more than
+just employement out of their work. This accounts for a lot
+of development in not just technical terms but in social terms too.
+
+(3) People get a different and new experiance which is very beneficial when they return back to india.
+
+(4) An FT in itself does nothing to improve one's CV greatly."</string>
+    <string name="htb">(1) The basic thing is that you should
+have an awareness about your interests regardless of your stream/department.
+Past projects that you did during your vacations can help you finding your area
+of interest and also will help during foreign training.\n\n\n
+(2) You’ll then want to look closely at the courses offered by the institutions on
+your shortlist, as well as researching
+the local area and lifestyle, admission requirements and costs.\n\n\n
+(3) Once you’ve firmly decided on your
+ program and institution, you should
+  start to think about your application(s).
+   Application processes differ depending on the university and the country, but generally each institution will provide full details of how to submit your application on the official website.\n</string>
+    <string name="wtb">:- Considering your application as early as possible is the best way to go.
+        After all, the sooner you gain acceptance into a university,
+        the sooner you can arrange your travels. To avoid disappointment,
+        note down all the relevant application deadlines (set out by your chosen university) in HUGE LETTERS on your calendar.\n\n
+    :- Application deadlines will be different depending on the school, but, for programs starting in the fall (September/October),
+        applications will generally be open from early in the year (January/February) until the middle of the year (June/July).\n</string>
+    <string name="cgpa">:- Eligibility criteria for different streams and different foreign universities are different.
+    In general, a good CGPA (above 8.0) will work.\n\n
+    Does it imply that students with CGPA less than 8 can not avail a foreign internship?\n
+    Well, surely not the ones which have explict cut-offs listed. But, you do opportunities at par with them.\n
+    !!The only Eligibility criteria is your passion and your primary motive!!</string>
+    <string name="wir">You may be asked to provide some supporting documentation as part of your application.
+        Once again, requirements vary depending on the country and university, but international students are often asked to provide the following:\n\n
+
+:- Passport photos for identification\n
+:- A statement of purpose\n
+:- CV/résumé\n
+:- Academic references/ letters of recommendation\n
+:- Certificate and transcripts of your secondary education\n
+:- Proof of English-language proficiency (e.g. a TOEFL/IELTS certificate, for schools in English-speaking countries), or other language test\n
+:- Admissions test results (e.g. GMAT/GRE results, for graduate programs)\n</string>
+    <string name="ap">There are few clear steps that stand out to get a foreign internship, with exponentially decreasing order of importance.\n\n
+
+1. Get a really good CGPA (8.5+)\n
+2. Identify professors in your academic field (was Physics for me)\n
+3. Write really good SOPs (do some research)\n
+4. Upload your CV (some filter out unknown emails with attachments)\n
+5. Send out emails on Tuesday (inboxes get cleared on Mondays)\n</string>
+</resources>

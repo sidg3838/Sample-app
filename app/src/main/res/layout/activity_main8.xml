@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main8Activity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cyan"></ScrollView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/i" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="291dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="As the name suggests, Foreign Training is people going abroad for research or
+internship in the second or third year of their UG/PG course. For a student, internship or training matter a lot in the shaping of their career."
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:id="@+id/tv"/>
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main4Activity">
+
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="323dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/tv"
+        android:layout_marginTop="57dp"
+        android:hint="ENTER YOUR 1st YEAR CGPA" />
+
+    <EditText
+        android:layout_width="323dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="141dp"
+        android:hint="ENTER YOUR 2nd YEAR CGPA"
+        android:id="@+id/et2"/>
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="299dp"
+        android:layout_height="99dp"
+        android:layout_centerInParent="true"
+        android:background="@color/cyan"
+        android:hint="result"
+        android:textSize="15dp" />
+
+    <Button
+        android:layout_width="209dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="118dp"
+        android:text="CLICK HERE"
+        android:background="@color/colorPrimary"
+        android:id="@+id/b"/>
+
+
+</RelativeLayout>
